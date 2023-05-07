@@ -1,0 +1,87 @@
+body{
+    margin:0;
+}
+.dashboard{
+    width: 20%;
+    background-color: rgb(164, 255, 255);
+    height: 100vh;
+}
+
+.stats{
+    width: 80%;
+}
+
+.links{
+    color:springgreen;
+    margin-top: 30px;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+}
+
+.links ul{
+    gap: 1rem;
+    list-style: none;
+    justify-content:space-evenly;
+    padding: 0;
+    margin: 0 15px;
+}
+
+.dashboard-icon{
+    background-color:rgb(235, 236, 231) ;
+    border-radius: 10px;
+}
+
+.links ul li:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.sidelinks{
+    gap: 1.5rem;
+    /* align-items: center; */
+}
+
+.left-nav{
+    background-color: rgb(246, 248, 186);
+    font-weight: bolder;
+}
+
+.r-dash{
+    background-color: rgb(252, 131, 248);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+.stats{
+    background-color:rgb(254, 229, 254) ;
+}
+
+.cards{
+    justify-content: center;
+}
+
+.card{
+    align-items: center;
+    border: 2px solid rgb(65, 210, 210);
+    background-color:rgb(216, 245, 247) ;  
+}
+
+.card p{
+    color: black;
+}
+
+.tables{
+    width: 70%;
+}
+
+.user span{
+    font-size: 1rem;
+}
+
+.data h3{
+    color: rgb(16, 54, 56);
+}
